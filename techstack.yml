@@ -1,0 +1,687 @@
+repo_name: huhuhuHR/yudao-cloud
+report_id: f87e3ae96d7975b8ac2d538b8951513c
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-02T01:33:31+00:00'
+requested_by: YunaiV
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: YunaiV
+  last_updated_on: 2019-02-21 12:12:29.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/sql/mysql/optional/vue3-menu.sql
+  detection_source: sql/mysql/optional/vue3-menu.sql
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-25 12:22:40.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: MSSQL
+  description: It is an enterprise-level database system that is very popular for
+    Windows web servers
+  website_url: https://www.microsoft.com/en-us/sql-server
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/2445/ZKsJsucq_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/.github/workflows/maven.yml
+  detection_source: ".github/workflows/maven.yml"
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-26 03:07:30.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-module-bpm/yudao-module-bpm-biz/src/test/resources/logback.xml
+  detection_source: yudao-module-bpm/yudao-module-bpm-biz/src/test/resources/logback.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-07-26 16:54:09.000000000 Z
+- name: OpenTracing
+  description: Consistent, expressive, vendor-neutral APIs for distributed tracing
+    and context propagation.
+  website_url: http://opentracing.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/6941/ktuguoGc_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-25 07:10:15.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-weixin/src/test-integration/resources/application.yml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-weixin/src/test-integration/resources/application.yml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: cn.hutool:hutool-all
+  description: 提供丰富的Java工具方法，此模块为Hutool所有模块的打包汇总，最终形式为一个jar包
+  license: FSFAP
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: com.alibaba:druid-spring-boot-starter
+  description: Spring Boot with Druid support,help you simplify Druid config in Spring
+    Boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-12-28 16:31:08.000000000 Z
+- name: com.aliyun:aliyun-java-sdk-core
+  description: Aliyun Open API SDK for Java Copyright
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-30 14:28:39.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-annotations
+  description: Core annotations used for value types
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-desensitize/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-desensitize/pom.xml
+  last_updated_by: gaibu
+  last_updated_on: 2023-01-20 07:48:24.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-core
+  description: Core Jackson processing abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-10 17:20:13.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-10 17:20:13.000000000 Z
+- name: com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  description: Add-on module to support JSR-310
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-10 17:20:13.000000000 Z
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-10 17:20:13.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: com.jcraft:jsch
+  description: JSch is a pure Java implementation of SSH2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: com.microsoft.sqlserver:mssql-jdbc
+  description: Microsoft JDBC 4.1 Driver for SQL Server
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-12-28 16:31:08.000000000 Z
+- name: commons-net:commons-net
+  description: Apache Commons Net library contains a collection of network utilities
+    and protocol implementations
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: de.codecentric:spring-boot-admin-starter-client
+  description: Spring Boot Admin Client Starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-25 07:10:15.000000000 Z
+- name: io.github.openfeign:feign-core
+  description: Feign Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-env/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-env/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-25 12:58:07.000000000 Z
+- name: io.micrometer:micrometer-registry-prometheus
+  description: Application monitoring instrumentation facade
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-monitor/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-25 07:10:15.000000000 Z
+- name: io.netty:netty-all
+  description: Netty is an asynchronous event-driven network application framework
+    for rapid development of maintainable high performance protocol servers and clients
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-redis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-redis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-09-24 10:24:57.000000000 Z
+- name: io.opentracing:opentracing-util
+  description: OpenTracing utilities
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-sms/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: io.swagger:swagger-annotations
+  description: Examples and server integrations for generating the Swagger API Specification
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: javax.servlet:javax.servlet-api
+  description: Java.net - The Source for Java Technology Collaboration
+  license: GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-gateway/pom.xml
+  detection_source: yudao-gateway/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-11-11 13:49:13.000000000 Z
+- name: org.apache.tika:tika-core
+  description: This is the core Apache Tika™ toolkit library from which all other
+    modules inherit functionality
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-file/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-07-08 13:30:08.000000000 Z
+- name: org.aspectj:aspectjweaver
+  description: The AspectJ weaver introduces advices to java classes
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.jsoup:jsoup
+  description: Jsoup is a Java library for working with real-world HTML
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.mockito:mockito-inline
+  description: Mockito preconfigured inline mock maker
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-mybatis/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-banner/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-banner/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-18 01:22:38.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-aop
+  description: Starter for aspect-oriented programming with Spring AOP and AspectJ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-operatelog/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-operatelog/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-13 15:05:36.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-security/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-security/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-11 15:13:58.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-tenant/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-tenant/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-11 15:13:58.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-validation
+  description: Starter for using Java Bean Validation with Hibernate Validator
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-biz-pay/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-biz-pay/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-12-29 15:06:16.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-web/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-web/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-17 07:30:30.000000000 Z
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-web/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-web/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-17 07:30:30.000000000 Z
+- name: org.springframework:spring-aop
+  description: Spring AOP
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.springframework:spring-core
+  description: Spring Core
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.springframework:spring-expression
+  description: Spring Expression Language
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: org.springframework:spring-web
+  description: Spring Web
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-common/pom.xml
+  detection_source: yudao-framework/yudao-common/pom.xml
+  last_updated_by: xingyu
+  last_updated_on: 2023-01-13 01:27:19.000000000 Z
+- name: uk.co.jemos.podam:podam
+  description: PODAM is a tool to automatically fill POJO with data
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/huhuhuHR/yudao-cloud/blob/master/yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  detection_source: yudao-framework/yudao-spring-boot-starter-test/pom.xml
+  last_updated_by: YunaiV
+  last_updated_on: 2022-06-01 15:59:01.000000000 Z
